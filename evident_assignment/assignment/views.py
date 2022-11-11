@@ -52,7 +52,7 @@ def signup(request):
         password=request.POST["pass1"]
         #check user has already exists or not
         if User.objects.filter(email=email).exists():
-            messages.info(request, 'Username is already taken')
+            messages.info(request, 'Email is already taken')
             return redirect('signup')
         #save data for user signup
         user=User.objects.create_user(
