@@ -1,0 +1,22 @@
+xcvbody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registration-container {
+  max-width: 500px;
+  margin-top: 50px;
+}
+
+.registration-container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  background-color: gray;
+  color: white;
+}
+
+.registration-container .box div {
+  padding: 0 10px;
+}
